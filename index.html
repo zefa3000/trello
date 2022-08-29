@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trello Drf Vue</title>
+    <link rel="stylesheet" href="/VERONICA/css/normalize.css" />
+    <link rel="stylesheet" href="/trello/css/style.css" />
+  </head>
+  <body>
+    <section class="section-settings">
+      <div class="container settings-container">
+        <h2 class="section-settings-heading">Настройки</h2>
+        <div class="section-settings-visibility-block">
+          <h3 class="section-settings-visibility">
+            Видимость рабочего пространства
+          </h3>
+          <div class="section-settings-privat">
+            <span class="section-settings-icon"></span>
+            <div class="section-settings-description">
+              <strong>Приватная</strong> - Приватное рабочее пространство. Оно
+              не индексируется и не видно никому кроме участников.
+            </div>
+            <a href="" class="section-settings-btn">Изменить</a>
+          </div>
+        </div>
+        <a href="" class="section-settings-link-delete"
+          >Удалить рабочее пространство?</a
+        >
+      </div>
+    </section>
+
+    <div class="section2">
+
+      <div class="form">
+        <div class="form-header">
+          <div class="form-head">Удалить рабочее пространство?</div>
+          <a href class="exit">&times;</a>
+        </div>
+        <div class="heading-text-list">
+          <h2 class="form-heading">
+            Удалить рабочее пространство &laquo;Trello Drf Vue&raquo;?
+          </h2>
+          <p class="form-text">Что нужно знать:</p>
+          <ul class="form-list">
+            <li class="form-list-item">Это действие нельзя отменить.</li>
+            <li class="form-list-item">
+              Все доски рабочего пространства будут закрыты.
+            </li>
+            <li class="form-list-item">
+              Доски могут быть заново открыты их администратором.
+            </li>
+            <li class="form-list-item">
+              Участники не смогут использовать закрытые доски.
+            </li>
+          </ul>
+        </div>
+        <div class="text_input">
+          <p class="form-text">
+            Чтобы удалить рабочее пространство, введите его название
+          </p>
+          <input type="text" placeholder="Trello Drf Vue" class="input" />
+        </div>
+        <button class="delete">Удалить рабочее пространство</button>
+      </div>
+
+      <div class="form2">
+
+          <div class="form2-header">
+              <div class="form2-head">
+                  Выбрать видимость рабочего  lhihlпространства
+              </div>
+              <a href class="exit2">&times;</a>
+          </div>
+
+          <div class="form2-privat">
+              <div class="form2-privat-head">
+                  <span class="form2-icon-lock"></span>
+                  <h3 class="form2-privat-heading">
+                      Приватная
+                  </h3>
+                  <span class="form2-icon-check"></span>
+              </div>
+              <p class="form2-description">
+                  Приватное рабочее пространство. Оно не индексируется и не видно никому, кроме участников.
+              </p>
+          </div>
+
+          <div class="form2-public">
+              <div class="form2-public-head">
+                <span class="form2-icon-earth"></span>
+                <h3 class="form2-public-heading">
+                    Публичная
+                </h3>
+              </div>
+              <p class="form2-description">
+                  Публичное рабочее пространство. Оно видно всем, у кого есть ссылка, а также будет показываться в поисковиках типа Google. Добавлять и редактировать доски рабочего пространства могут только те, кого в него пригласили. 
+              </p>
+          </div>
+      </div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* SETTINGS */
+.container {
+  max-width: 1060px;
+  margin-left: auto;
+  /* padding-right: 32px; */
+}
+
+.section-settings {
+  padding-top: 52px;
+  /*  padding-bottom: 80px; */
+}
+
+.settings-container {
+  margin-left: 560px;
+  color: #172b4d;
+}
+
+.section-settings-visibility-block {
+  margin-bottom: 55px;
+}
+
+.section-settings-visibility, .section-settings-binding {
+  display: block;
+  justify-content: space-between;
+  height: 40px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.section-settings-privat {
+  display: flex;
+ /*  align-items: center; */
+}
+
+.section-settings-privat:nth-child(1) {
+  justify-content: space-between;
+}
+
+.section-settings-icon {
+  display: block;
+  width: 20px;
+  height: 25px;
+  margin-bottom: 15px;
+  /* margin-top: 18px; */
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 15px 18px;
+  background-image: url("/trello/img/lock.png");
+}
+
+.section-settings-description {
+  /*  display: flex; */
+  max-width: 800px;
+  font-size: 18px;
+}
+
+.section-settings-btn {
+  padding: 10px 15px 10px 15px;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: rgb(240, 240, 240);
+  color: rgb(76, 76, 117);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section-settings-link-delete {
+  font-size: 18px;
+  color: #d56554;
+}
+
+/* DELETE */
+.section2 {
+  height: 3000px;
+  background-color: #e0e0e0;
+}
+
+.form {
+  display: flex;
+ /*  position: fixed; */
+  box-sizing: border-box;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  width: 380px;
+  height: 555px;
+  background-color: rgb(255, 255, 255);
+  outline: 1px solid #d6d6d6;
+  color: #172b4d;
+}
+
+.heading-text-list {
+  margin: 0;
+}
+
+.form-head {
+  /* margin-top: 20px; */
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  color: #748096;
+  
+}
+
+.form-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.exit {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 40px;
+  color: #748096;
+}
+
+.form-list {
+  font-size: 18px;
+  color: #60697a;
+}
+
+.form-list-item {
+  margin-top: 15px;
+}
+
+.form-text {
+  margin: 0;
+  padding-bottom: 5px;
+  color: #60697a;
+  font-weight: bold;
+}
+
+.form-list-item:nth-child(2) {
+  text-decoration: underline;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #dfe1e6;
+  border-radius: 3px;
+  background-color: #fafbfc;
+}
+
+.delete {
+  padding: 10px 50px 10px 50px;
+  font-size: 18px;
+  border: 1px solid #f5f6f8;
+  color: #a5a5a5;
+}
+
+/* CHANGE */
+.form2 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 440px;
+  height: 400px;
+  margin-top: 10px;
+  margin-left: 40px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #d6d6d6;
+  padding: 25px 50px 25px 20px;
+}
+
+.form2-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d6d6d6;;
+}
+
+.form2-head {
+  font-size: 20px;
+  color: #60697a;
+}
+
+.exit2 {
+  display: block;
+  font-size: 40px;
+  text-decoration: none;
+  color: #60697a;
+}
+
+.form2-privat {
+  padding-top: 20px;
+}
+
+.form2-privat-head {
+  display: flex;
+  align-items: center;
+}
+
+.form2-icon-lock {
+  display: block;
+  width: 20px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 15px 18px;
+  background-image: url("/trello/img/lock.png");
+}
+
+.form2-privat-heading {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.form2-icon-check {
+  display: block;
+  width: 20px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 15px 18px;
+  background-image: url("/trello/img/check.png");
+}
+
+.form2-description {
+  margin: 0;
+}
+
+.form2-public-head {
+  display: flex;
+  align-items: center;
+}
+
+.form2-icon-earth {
+  display: block;
+  width: 20px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: auto 18px;
+  background-image: url("/trello/img/earth.png");
+}
+
+.form2-public-heading {
+  padding-left: 3px;
+}
